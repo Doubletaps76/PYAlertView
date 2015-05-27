@@ -4,6 +4,12 @@ all animation by using POP
 
 <img src="https://github.com/Doubletaps76/PYAlertView/blob/master/Demo.gif" alt="PYDropMenu Screenshot" width="320" height="568">
 
+##Adding to your project
+```
+platform :ios, '7'
+    pod 'PYAlertView'
+```
+
 ## Usage
 
 ```obj-c
