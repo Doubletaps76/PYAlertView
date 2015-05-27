@@ -5,10 +5,11 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/Doubletaps76/PYAlertView'
   s.authors      = { 'Tsau,Po-Yuan' => 'heineken00000@gmail.com' }
   s.summary      = 'An easy-to-use Custom AlertView with POP animation !'
-  s.source       = { :git => 'https://github.com/Doubletaps76/PYAlertView.git', 
+  s.source       = { :git => 'https://github.com/Doubletaps76/Demo.git', 
   					 :tag => s.version.to_s }
   s.source_files = 'PYAlertView/**/*.{h,m}'
   s.platform = :ios, '7.1'
   s.ios.deployment_target = '7.1'
+  s.dependency 'pop', '~> 1.0'
   s.requires_arc = true
 end
